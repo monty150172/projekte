@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buchungsformular</title>
+</head>
+<body>
+    <hi>Buchungsformular</hi>
+
+    <form action="booking.js" method="post">
+        <label for="Name">Name</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail">
+        <br>
+        <label for="telefon">Telefonnummer</label>
+        <input type="tel" name="" id="">
+        <br>
+        <label for="anreise">Anreise</label>
+        <input type="date" name="anreise" id="anreise">
+        <br>
+        <label for="abreise">Abreise:</label>
+        <input type="date" id="abreise" name="abreise" required>
+        <br>
+        <label>Zimmertyp:</label>
+        <div>
+            <input type="radio" id="einzelzimmer" name="zimmertyp" value="Einzelzimmer">
+            <label for="einzelzimmer">Einzelzimmer</label>
+
+            <input type="radio" id="doppelzimmer" name="zimmer typ" value="Doppelzimmer">
+            <label for="doppelzimmer">Doppelzimmer</label>
+
+            <input type="radio" id="suite" name="zimmertyp" value="Suite">
+            <label for="suite">Suite</label>
+         </div>
+        <br>
+        <input type="submit" value="Jetzt buchen">
+        </form>
+</body>
+</html>

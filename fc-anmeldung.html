@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fitnessclub</h1>
+
+    <form action="course-registration.js" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="mail">E-mail</label>
+           <input type="email" name="mail" id="mail">
+           <br><br>
+           <label for="course">Kurus</label>
+           <label for="aktivitaet">Wähle deine Aktivität:</label>
+           <select id="aktivitaet" name="aktivitaet">
+                     <option value="yoga">Yoga</option>
+             <option value="pilates">Pilates</option>
+             <option value="crossfit">Crossfit</option>
+           </select>
+            <br><br>
+            <label for="time">Trainingszeit</label>
+                <div>
+                    <input type="radio" id="morgen" name="time" value="morgen">
+                    <label for="morgen">Morgen</label>
+                    <input type="radio" id="mittag" name="time" value="mittag">
+                    <label for="mittag">Mittag</label>
+                    <input type="radio" id="abend" name="time" value="abend">
+                    <label for="abend">Nachmittag</label>
+                </div>
+                <br>
+            <label for="info">Informationen</label>
+            <input type="text" name="info" id="info">
+            <br>
+
+        <input type="submit" value="absenden">
+
+
+    </form>
+</body>
+</html>
